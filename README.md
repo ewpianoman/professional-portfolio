@@ -1,2 +1,2 @@
 # professional-portfolio
-Eric Wilson Professional Portfolio
+Eric Wilson's Professional Portfolio

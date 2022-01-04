@@ -2084,11 +2084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ewpiano/Documents/Coding/Professional Portfolio/professional-portfolio/professional-portfolio/professional-portfolio/professional-portfolio.csproj",
+      "projectUniqueName": "/Users/ewpiano/Documents/Coding/portfolio/professional-portfolio/professional-portfolio.csproj",
       "projectName": "professional-portfolio",
-      "projectPath": "/Users/ewpiano/Documents/Coding/Professional Portfolio/professional-portfolio/professional-portfolio/professional-portfolio/professional-portfolio.csproj",
+      "projectPath": "/Users/ewpiano/Documents/Coding/portfolio/professional-portfolio/professional-portfolio.csproj",
       "packagesPath": "/Users/ewpiano/.nuget/packages/",
-      "outputPath": "/Users/ewpiano/Documents/Coding/Professional Portfolio/professional-portfolio/professional-portfolio/professional-portfolio/obj/",
+      "outputPath": "/Users/ewpiano/Documents/Coding/portfolio/professional-portfolio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ewpiano/.config/NuGet/NuGet.Config"
