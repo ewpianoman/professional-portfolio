@@ -1,8 +1,10 @@
 ﻿@{
     ViewData["Title"] = "About Page";
+    string pageTitle = "About";
+    var pageDescription = "<p>This is the About page.</p>";
 }
 
 <div class="text-center">
-    <h1 class="display-4">About</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">@pageTitle</h1>
+    <div>@Html.Raw(pageDescription)</div>
 </div>
