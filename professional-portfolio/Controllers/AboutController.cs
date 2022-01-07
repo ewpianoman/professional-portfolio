@@ -13,6 +13,14 @@ namespace professional_portfolio.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            ViewBag.PageTitle = "About";
+            ViewBag.PageDescription = "<p>This is the About page.</p>";
+            ViewBag.Degrees = new string[]
+            {
+                "BA in Music Education",
+                "MS in Music Technology"
+            };
+
             return View();
         }
     }
