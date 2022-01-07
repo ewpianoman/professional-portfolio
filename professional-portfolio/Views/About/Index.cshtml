@@ -2,9 +2,24 @@
     ViewData["Title"] = "About Page";
     string pageTitle = "About";
     var pageDescription = "<p>This is the About page.</p>";
+    string[] degrees = {
+        "BA in Music Education",
+        "MS in Music Technology"
+    };
 }
 
 <div class="text-center">
     <h1 class="display-4">@pageTitle</h1>
     <div>@Html.Raw(pageDescription)</div>
+
+    @if (degrees.Length > 0)
+    {
+        <h2 class="display-5">My Degrees</h2>
+        <div>
+            @foreach (var degree in degrees)
+            {
+                <p>@degree</p>
+            }
+        </div>
+    }
 </div>
