@@ -50,6 +50,11 @@ namespace professional_portfolio.Data
             return portfolioItemToReturn;
         }
 
+        public PortfolioItem[] GetPortfolioItems()
+        {
+            return _portfolioItems;
+        }
+
         public PortfolioItemRepository()
         {
         }

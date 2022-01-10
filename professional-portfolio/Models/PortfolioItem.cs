@@ -23,6 +23,14 @@ namespace professional_portfolio.Models
             }
         }
 
+        public string GetUrl
+        {
+            get
+            {
+                return "Portfolio/Item/" + Id;
+            }
+        }
+
         public PortfolioItem()
         {
         }
